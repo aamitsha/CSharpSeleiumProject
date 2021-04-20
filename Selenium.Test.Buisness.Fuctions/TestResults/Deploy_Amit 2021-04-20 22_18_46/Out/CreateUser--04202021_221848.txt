@@ -1,0 +1,13 @@
+001. API Test Log| CreateUser
+002. Created POST request https://reqres.in//api/users
+003. Executed Rest request '/api/users' returned status 'Created' and response equals ''
+004. 
+Error: Status code did not match
+005. 
+Exception: Assert.AreEqual failed. Expected:<BadRequest>. Actual:<Created>. Status code did not match
+006. 
+StackTrace:    at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual[T](T expected, T actual, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual[T](T expected, T actual, String message)
+   at Selenium.Test.Common.Function.PageFuctions.Assertions.AssertAreEqual(String expected, String actual, String errorMessage) in C:\Users\Amit\source\repos\Selenium.Test.Common.Function\Selenium.Test.Common.Function\PageFuctions\Assertions.cs:line 47
+007. Test FailedTotal time00:00:04.9719035

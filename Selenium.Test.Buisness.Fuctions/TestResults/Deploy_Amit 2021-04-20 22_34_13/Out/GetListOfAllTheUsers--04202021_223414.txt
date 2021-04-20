@@ -1,0 +1,7 @@
+001. API Test Log| GetListOfAllTheUsers
+002. Created GET request https://reqres.in//api/users
+003. Executed Rest request '/api/users' returned status 'OK' and response equals ''
+004. Passed
+005. Created GET request https://reqres.in//api/users
+006. Executed Rest request '/api/users' returned status 'OK' and response equals ''
+007. Test FailedTotal time00:00:03.0217693

@@ -1,0 +1,4 @@
+001. API Test Log| VerifySingleUser
+002. Created GET request https://reqres.in//api/users
+003. Executed Rest request '/api/users' returned status 'OK' and response equals ''
+004. Test FailedTotal time00:00:02.8488970
